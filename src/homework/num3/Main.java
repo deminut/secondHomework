@@ -15,6 +15,7 @@ public class Main {
             summ+=num;
             i++;
         }
+        in.close();
 
     }
 }
