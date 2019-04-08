@@ -8,10 +8,10 @@ public class Main {
         int num = in.nextInt();
         int i = 0;
         int summ = 0;
-        System.out.printf("Результат:");
+        System.out.print("Результат:");
         while (i<num)
         {
-            System.out.printf(" " + summ);
+            System.out.print(" " + summ);
             summ+=num;
             i++;
         }
