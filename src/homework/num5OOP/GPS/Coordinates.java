@@ -20,13 +20,13 @@ public class Coordinates {
         this.coordinate = coordinate;
     }
 
-    public double getX1(){
-        return coordinate[0];
-    }
-
-    public double getY1(){
-        return coordinate[1];
-    }
+//    public double getX1(){
+//        return coordinate[0];
+//    }
+//
+//    public double getY1(){
+//        return coordinate[1];
+//    }
 
     @Override
     public String toString() {

@@ -39,9 +39,10 @@ public class Car {  //класс машины
     }
 
    private void traveled(int x, int y){    //изменение дистанции при вводе новых координат
-        double x1 = coordinate.getX1();
-        double y1 = coordinate.getY1();
-        distance=distance+Math.sqrt((Math.pow((x-x1),2)+Math.pow((y-y1),2)));
+//        double x1 = coordinate.getX1();
+//        double y1 = coordinate.getY1();
+        int[] old = coordinate.getCoordinate();
+        distance=distance+Math.sqrt((Math.pow((x-old[0]),2)+Math.pow((y-old[1]),2)));
     }
 
     public String getNameCar() {
