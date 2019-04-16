@@ -13,7 +13,7 @@ public class Car {
         distance=0;
     }
 
-    Car(String nameCar) {  //новая машина (не акционная) из салона
+    public Car(String nameCar) {  //новая машина (не акционная) из салона
         this.nameCar=nameCar;
         distance=0;
     }
@@ -54,12 +54,15 @@ public class Car {
         this.coordinate = coordinate;
     }
 
-    public double getDistance() {
+    double getDistance() {
         return distance;
     }
 
-    public void setDistance(short i, float distance) {  //добавить или скрутить пробег напрямую. i>=0 - добавить, i<0 - скрутить
-        this.distance = distance;
+    void setDistance(int i, double distance) {  //добавить или скрутить пробег напрямую. i>=0 - добавить, i<0 - скрутить
+        if (i>=0)
+            this.distance=this.distance+distance;
+        if (i<0)
+            this.distance=this.distance-distance;
     }
 
     @Override

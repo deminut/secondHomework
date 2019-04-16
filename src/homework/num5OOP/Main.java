@@ -17,5 +17,12 @@ public class Main {
 
         car4.setCoordinate(new int[]{0,0});
         System.out.println(car4);
+
+        System.out.println();
+        System.out.println(car4.getDistance());
+        car4.setDistance(1,200);
+        System.out.println(car4.getDistance());
+        car4.setDistance(-1,300);
+        System.out.println(car4.getDistance());
     }
 }
