@@ -2,7 +2,7 @@ package homework.num5OOP;
 
 import java.util.Arrays;
 
-public class Car {
+public class Car {  //класс машины
 
     private String nameCar;
     private int[] coordinate=new int[2];

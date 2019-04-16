@@ -12,6 +12,7 @@ public class Main {
         System.out.println(car3);
         System.out.println(car4);
 
+        System.out.println();
         car1.setCoordinate(new int[]{5,0});
         System.out.println(car1);
 
